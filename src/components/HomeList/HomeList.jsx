@@ -1,4 +1,3 @@
-// import { Link } from "react-router-dom";
 import { List, ListLink } from "./HomeList.styled";
 
 export const HomeList = ({ movies }) => {

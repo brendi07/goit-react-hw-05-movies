@@ -13,7 +13,7 @@ import { getMovies } from "components/api/api";
           return response.json();
         })
         .then(data => {
-          setMovies(data.results); // Припускаючи, що 'results' - це масив фільмів
+          setMovies(data.results);
         })
         .catch(error => {
           console.log(error);

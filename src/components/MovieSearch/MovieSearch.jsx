@@ -19,7 +19,6 @@ export const MovieSearch = ({ value, onSearch }) => {
           value={value}
           onChange={handleChange}
         />
-        {/* <button type="submit">Search</button> */}
       </form>
     </Wrapper>
   );
